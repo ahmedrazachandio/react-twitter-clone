@@ -22,8 +22,8 @@ let Menubar = () => {
 				<li className='FaTwitter'><BsBookmark className='icon' /> Bookmarks</li >
 				<li className='FaTwitter'><IoPersonOutline className='icon' /> Profile</li >
 				<li className='FaTwitter'><CgMoreO className='icon' /> More</li >
-				<li className="tweetBtn" > Profile</li>
 			</ul >
+				<span className="tweetBtn" > Profile</span>
             </div>
 
 );

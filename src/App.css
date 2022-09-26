@@ -34,7 +34,7 @@
   }
 
   .icon {
-    margin-left: 20px;
+    margin-left: 30px;
   }
   
   .MenuBars > ul > .FaTwitter {
@@ -83,16 +83,17 @@
   .MenuBars > .home > .twiterImg {
     width: 60px;
   }
+  ul{
+    margin-bottom: 20px;
+  }
 .tweetBtn{
   background-color: #1da1f2;
-  width: 200px;
   color: white;
   text-align: center;
   border-radius: 50px;
-  font-size: 20px;
-  padding: 10px;
-  margin-top: 20px;
-  margin-left: 30px;
+  font-size: 25px;
+  padding: 5px 70px 5px 70px ;
+  margin: 30px;
 }
 
 .content {
