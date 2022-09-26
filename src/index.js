@@ -1,41 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import ReactDOM from 'react-dom';
-import Content from './components/content';
-import Sidebar from './components/sidebar';
-import Menubar from './components/menubar';
-import "./index.css";
-import moment from 'moment';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const App = () => {
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-  return (
-    <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-
-       <Menubar />
-       <Content />
-       <Sidebar />
-    </div>
-  );
-}
-
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ReactDOM.render(<Menubar />, document.querySelector('#root'));
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

@@ -8,7 +8,10 @@ import { BsStars } from "react-icons/bs";
 let Content = () => {
         return (
             <div className='content'>
-                 Ahmed Raza
+                <div className="home">
+                    <h2>Home</h2>
+                </div>
+            
             </div>
         );
         }

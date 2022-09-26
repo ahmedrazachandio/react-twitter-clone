@@ -13,15 +13,15 @@ let Menubar = () => {
         return (
             <div className='MenuBars'>
                <ul>
-				<li className='FaTwitter1'><FaTwitter /></li>
-				<li className='FaTwitter'><RiHomeHeartFill /> Home</li>
-				<li className='FaTwitter'><RiHashtag /> Explore</li>
-				<li className='FaTwitter'><BsPeople /> Communities</li>
-				<li className='FaTwitter'><IoNotificationsOutline /> Notifications</li >
-				<li className='FaTwitter'><HiOutlineMail /> Messages</li >
-				<li className='FaTwitter'><BsBookmark /> Bookmarks</li >
-				<li className='FaTwitter'><IoPersonOutline /> Profile</li >
-				<li className='FaTwitter'><CgMoreO /> More</li >
+				<li className='FaTwitter extraHieght'><FaTwitter className='icon1' /></li>
+				<li className='FaTwitter'><RiHomeHeartFill className='icon' /> Home</li>
+				<li className='FaTwitter'><RiHashtag className='icon' /> Explore</li>
+				<li className='FaTwitter'><BsPeople className='icon' /> Communities</li>
+				<li className='FaTwitter'><IoNotificationsOutline className='icon' /> Notifications</li >
+				<li className='FaTwitter'><HiOutlineMail className='icon' /> Messages</li >
+				<li className='FaTwitter'><BsBookmark className='icon' /> Bookmarks</li >
+				<li className='FaTwitter'><IoPersonOutline className='icon' /> Profile</li >
+				<li className='FaTwitter'><CgMoreO className='icon' /> More</li >
 				<li className="tweetBtn" > Profile</li>
 			</ul >
             </div>
