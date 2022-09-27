@@ -114,11 +114,10 @@
 }
 .home2{
   padding: 10px 0px 10px 20px;
-  border-bottom: 1px solid #e6ecf0;
   border-left: 1px solid #e6ecf0;
   border-right: 1px solid #e6ecf0;
   display: flex;
-
+  
 }
 .profile_photo{
   align-items: center;
@@ -132,6 +131,42 @@
   border: none;
   padding: 10px;
   outline: none;
+  
+}
 
+.icon_profile{
+  display: flex;
+  border-left: 1px solid #e6ecf0;
+  border-right: 1px solid #e6ecf0;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.cover{
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+.cover_icons{
+  color: #1da1f2;
+  font-size: 25px;
+  padding-left: 4px;
+}
+.btn_profile{
+  width: 75%;
+  justify-content: end;
+  align-items: end;
+  
+  border: 1px solid red;
+  /* float: right; */
+}
+.button_profile{
+  background-color: #1da1f2;
+  color: #e6ecf0;
+  border: none;
+  outline: none;
+  padding: 10px;
+  display: flex;
 }
 
