@@ -30,7 +30,7 @@ let Content = () => {
                         <BsCalendarCheckFill  className="cover_icons"/>
                     </div>    
                     <div className="btn_profile">
-                        <button className="button_profile">Profile</button>
+                        <button className="button_profile">Tweet</button>
                     </div>
                 </div>
             

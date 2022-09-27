@@ -20,7 +20,11 @@
     height: 100vh;
     /* flex: 1; */
     width:25%;
-    position: sticky;
+    border-right: 1px solid #e6ecf0;
+
+    /* position: sticky; */
+    /* position: fixed; */
+
     /* display: flex; */
   }
 
@@ -99,23 +103,27 @@
 .content {
   width: 50vw;
   height: 100vh;
+
   /* margin-top: 10px; */
   /* border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black; */
 
 }
+.sideBar{
+  width: 25vw;
+  border-left: 1px solid #e6ecf0;
+
+  /* background-color: cadetblue; */
+}
+
 .home{
   padding: 10px 0px 10px 20px;
   border-bottom: 1px solid #e6ecf0;
-  border-left: 1px solid #e6ecf0;
-  border-right: 1px solid #e6ecf0;
 
 }
 .home2{
   padding: 10px 0px 10px 20px;
-  border-left: 1px solid #e6ecf0;
-  border-right: 1px solid #e6ecf0;
   display: flex;
   
 }
@@ -136,8 +144,6 @@
 
 .icon_profile{
   display: flex;
-  border-left: 1px solid #e6ecf0;
-  border-right: 1px solid #e6ecf0;
   border-bottom: 1px solid #e6ecf0;
 }
 
@@ -150,23 +156,84 @@
 }
 .cover_icons{
   color: #1da1f2;
-  font-size: 25px;
-  padding-left: 4px;
+  font-size: 20px;
+  padding-left: 5px;
 }
 .btn_profile{
-  width: 75%;
+  width: 79%;
   justify-content: end;
   align-items: end;
   
-  border: 1px solid red;
-  /* float: right; */
 }
 .button_profile{
   background-color: #1da1f2;
   color: #e6ecf0;
   border: none;
   outline: none;
-  padding: 10px;
-  display: flex;
+  border-radius: 40px;
+  padding: 10px 20px;
+  float: right;
+  margin-top: 12px;
+  font-size: 14px;
+  margin-bottom: 8px;
+
 }
 
+.sidebar_input{
+  border-radius: 30px;
+  width: 80%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #f5f4f2;
+  display: flex;
+
+
+}
+.search_input{
+  border-radius: 30px;
+  width: 89%;
+  background-color: #f5f4f2;
+  border: none;
+  padding: 5px;
+  outline: none;
+
+}
+.search_icon{
+  font-size: 20px;
+  color: silver;
+  align-items: center;
+  padding-top: 2px;
+}
+/* .trending{
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 25%;
+  padding: 20px;
+} */
+.trends{
+  background: #f5f8fa;
+  padding: 15px;
+  width: 85%;
+  border-radius: 5px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin: 50px 20px 20px 20px;
+}
+.main{
+  border-bottom: 1px solid #e6ecf0;
+  
+}
+.for{
+  padding-bottom: 8px;
+  font-size: 20px;
+}
+.country{
+  font-size: 14px;
+  color: silver;
+  font-weight: 300;
+  margin: 10px 0;
+}
