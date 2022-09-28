@@ -1,4 +1,5 @@
-// import Posts from './post';
+import Posts from './posts';
+
 // import { BsStars } from "react-icons/bs";
 import { FaRegImage } from "react-icons/fa";
 import { CgMenuBoxed } from "react-icons/cg";
@@ -33,7 +34,7 @@ let Content = () => {
                         <button className="button_profile">Tweet</button>
                     </div>
                 </div>
-            
+                <Posts />            
             </div>
         );
         }
