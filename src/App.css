@@ -207,6 +207,21 @@
   align-items: center;
   padding-top: 2px;
 }
+
+
+/*  post */
+.post_profile{
+  align-items: center;
+  justify-content: center;
+  width: 7%;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+
+
+
 /* .trending{
   position: fixed;
   top: 80px;
@@ -237,3 +252,4 @@
   font-weight: 300;
   margin: 10px 0;
 }
+

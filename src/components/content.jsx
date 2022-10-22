@@ -1,4 +1,6 @@
 import Posts from './posts';
+import './../App.css';
+
 
 // import { BsStars } from "react-icons/bs";
 import { FaRegImage } from "react-icons/fa";
