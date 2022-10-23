@@ -7,9 +7,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Menubar />
+      <Menubar className="position" />
        <Content />
-       <Sidebar />
+       <Sidebar className="hide position" />
     </div>
   );
 }

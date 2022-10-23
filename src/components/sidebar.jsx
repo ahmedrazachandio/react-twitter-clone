@@ -8,7 +8,7 @@ import { HiOutlineSearch } from "react-icons/hi";
 
 let sidebar = () => {
         return (
-            <div className='sideBar'>
+            <div className='sideBar position1'>
                  <div className="sidebar_input">
                     <HiOutlineSearch  className="search_icon" />
                     <input type="text" placeholder="Search Twitter"  className="search_input" />

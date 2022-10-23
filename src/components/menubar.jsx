@@ -11,7 +11,7 @@ import { CgMoreO } from "react-icons/cg";
 
 let Menubar = () => {
         return (
-            <div className='MenuBars'>
+            <div className='MenuBars position'>
                <ul>
 				<li className='FaTwitter extraHieght'><FaTwitter className='icon1' /></li>
 				<li className='FaTwitter'><RiHomeHeartFill className='icon' /> Home</li>

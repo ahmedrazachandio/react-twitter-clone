@@ -37,6 +37,9 @@ let Content = () => {
                     </div>
                 </div>
                 <Posts />            
+                <Posts />            
+                <Posts />            
+                <Posts />            
             </div>
         );
         }
